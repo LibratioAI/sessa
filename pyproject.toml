@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sessa"
+version = "1.0.0"
+description = "Sessa: Selective State Space Attention"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Liubomyr Horbatko" }]
+license = { file = "LICENSE" }
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["sessa*"]
