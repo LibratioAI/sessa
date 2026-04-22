@@ -1,6 +1,12 @@
 # Sessa: Selective State Space Attention
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2604.18580">
+    <img src="https://img.shields.io/badge/paper-arXiv-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
+  </a>
+</p>
+
+<p align="center">
   <img src="./assets/sessa.svg" alt="SESSA: Selective State Space Attention" width="720">
 </p>
 
@@ -85,7 +91,20 @@ y = layer(x)  # (B, T, D)
 print(y.shape)
 ```
 
+## Citation
 
+If you use this codebase or the ideas in the paper in your research, please cite Sessa: Selective State Space Attention.
+
+```bibtex
+@article{horbatko2026sessa,
+  title         = {Sessa: Selective State Space Attention},
+  author        = {Horbatko, Liubomyr},
+  year          = {2026},
+  eprint        = {2604.18580},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG}
+}
+```
 
 ## License
 
