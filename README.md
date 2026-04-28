@@ -29,6 +29,10 @@ cd sessa-repo
 python -m pip install -e .
 ```
 
+> [!NOTE]
+> If `from sessa.layer import SessaLayer` still raises `ModuleNotFoundError: No module named 'sessa'` in a notebook, restart the kernel/runtime and try again.
+
+
 ### Optional: FlashAttention
 
 This repo supports FlashAttention if available.  
